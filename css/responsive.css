@@ -1,0 +1,21 @@
+/*Extra small device(Mobile (e.g. Apple iPhone) less than 361px)*/
+@media (min-width: 320px) and (max-width: 374.98px) {}
+
+/* small device(Apple iPhone 7, less than 361px)*/
+@media (min-width: 375px) and (max-width: 413.98px) {}
+
+/* small device(Apple iPhone 7 Plus, 361px and up)*/
+@media (min-width: 414px) and (max-width: 599.98px) {}
+
+/*Small device(Small Tablet, 576px and up)*/
+@media (min-width: 600px) and (max-width: 767.98px) {}
+
+/*medium device(Tablet 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+
+/*large device(desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Extra large device(Widescreen,1280px and up)*/
+@media (min-width: 1200px) {}
