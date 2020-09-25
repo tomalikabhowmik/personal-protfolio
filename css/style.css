@@ -51,7 +51,7 @@ html {
     margin-right: 20px;
     font-family: 'Roboto';
     font-weight: 500;
-    color: #4c608b !important;
+    color: #ff2b4a !important;
 }
 
 /* its for header-content start*/
@@ -76,7 +76,7 @@ html {
 
 .header-content {
     padding-top: 30%;
-    margin-left: 314px;
+    margin-left: 361px;
 }
 
 /*header-part end*/
@@ -105,15 +105,264 @@ html {
 /*its for btn custom1*/
 .btn-custom1 {
     background-color: #ff2b4a;
-    padding: 8px 40px;
+    padding: 8px 45px;
     font-size: 16px;
     font-family: 'Roboto';
     font-weight: 500;
     color: #ffffff;
     text-align: center;
+    margin-top: 20px;
 }
 
 /*about part end*/
+/*working-process start*/
+.working-process {
+    background-color: #f6f6f6;
+    padding: 90px;
+}
+
+/*its for process-content part*/
+.process-content h2 {
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 700;
+    columns: #000000;
+    margin-bottom: 20px;
+}
+
+.process-content p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #636161;
+}
+
+.process-content {
+    margin-bottom: 70px;
+}
+
+/*its for categories-image1 part*/
+.categories-image1 {
+    background-image: url(../img/itme01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 90px;
+}
+
+.categories-image1 h5 {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+/*its for categories-image2 part*/
+.categories-image2 {
+    background-image: url(../img/itme02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 90px;
+}
+
+.categories-image2 h5 {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: -19px;
+}
+
+/*its for categories-image3 part*/
+.categories-image3 {
+    background-image: url(../img/itme03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 90px;
+}
+
+.categories-image3 h5 {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+/*its for categories-image4 part*/
+.categories-image4 {
+    background-image: url(../img/itme04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 90px;
+}
+
+.categories-image4 h5 {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+/*working-process end*/
+/*experience-part start*/
+.experience-part {
+    background-image: linear-gradient( #396879,#736a77);
+    padding: 90px;
+}
+
+/*its for work-experience-part*/
+.work-experience {
+    background-color: #62657d;
+    padding: 50px 30px;
+    margin-left: 80px;
+
+}
+
+/*its for work-experience1-part*/
+.work-experience1 {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 50px;
+}
+
+.work-experience1 h3 {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.work-experience1 h4 {
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.work-experience1 h5 {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    color: #ebe3e3;
+    margin-bottom: 12px;
+}
+
+.work-experience1 p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    color: #dad4d4;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/*its for work-experience2-part*/
+.work-experience2 h4 {
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.work-experience2 h5 {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    color: #ebe3e3;
+    margin-bottom: 12px;
+}
+
+.work-experience2 p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    color: #dad4d4;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+/*its for education-part*/
+.education {
+    background-color: #62657d;
+    padding: 50px 30px;
+    margin-left: 20px;
+}
+
+/*its for education1-part*/
+.education1 {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 50px;
+}
+
+.education1 h3 {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.education1 h4 {
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.education1 h5 {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    color: #ebe3e3;
+    margin-bottom: 12px;
+}
+
+.education1 p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    color: #dad4d4;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/*its for education2-part*/
+.education2 h4 {
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.education2 h5 {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    color: #ebe3e3;
+    margin-bottom: 12px;
+}
+
+.education2 p {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 300;
+    color: #dad4d4;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+/*experience-part end*/
 
 /*font-family: 'Raleway', sans-serif;*/
 /*font-family: 'Roboto', sans-serif;*/
