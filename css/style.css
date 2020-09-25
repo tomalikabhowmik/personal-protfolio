@@ -2,8 +2,118 @@ body {
     margin: 0;
     padding: 0;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
+/*header part start*/
+.header-area {
+    background-image: url(../img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0px 70px 0px;
+    height: 100vh;
+}
+
+/*its for toggler part*/
+.navbar-toggler {
+    padding: .25rem .50rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: none;
+    color: #faf2f2 !important;
+    margin-top: 5px;
+    border: 1.5px solid #ecebeb !important;
+}
+
+.navbar {
+    position: relative;
+    display: inline;
+    padding: .5rem 1rem;
+    float: right;
+}
+
+/*its for menu list part*/
+.menu {
+    margin-top: 30px;
+    padding-right: 15px;
+    padding-left: 88%;
+}
+
+.menu ul li {
+    background-color: #f1e9e9 !important;
+    background-size: 10%;
+}
+
+.menu a {
+    margin-right: 20px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #4c608b !important;
+}
+
+/* its for header-content start*/
+.header-area h2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 65px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding: 10px 0px;
+}
+
+.header-area p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.header-content {
+    padding-top: 30%;
+    margin-left: 314px;
+}
+
+/*header-part end*/
+/*about part start*/
+.about-part {
+    padding: 50px 0px;
+}
+
+/* its for about content part*/
+.about-part h4 {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    color: #5f5f5f !important;
+    margin-bottom: 30px;
+}
+
+.about-part p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    width: 101%;
+    margin-bottom: 30px;
+}
+
+/*its for btn custom1*/
+.btn-custom1 {
+    background-color: #ff2b4a;
+    padding: 8px 40px;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*about part end*/
+
 /*font-family: 'Raleway', sans-serif;*/
 /*font-family: 'Roboto', sans-serif;*/
