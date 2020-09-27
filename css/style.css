@@ -217,7 +217,7 @@ html {
 /*working-process end*/
 /*experience-part start*/
 .experience-part {
-    background-image: linear-gradient(#396879, #736a77);
+    background-image: linear-gradient(#4c869b, #736a77);
     padding: 90px;
 }
 
@@ -404,6 +404,11 @@ html {
     padding: 70px;
 }
 
+.testimonial-image {
+    margin-right: 10px;
+    float: right;
+}
+
 .testimonial-content i {
     font-size: 40px;
     color: #1d6274 !important;
@@ -437,10 +442,17 @@ html {
     color: #404242 !important;
 }
 
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-bottom: -239px;
+}
+
 /*testimonial-part end*/
 /*contact-part start*/
 .contact-part {
-    background-image: linear-gradient(#396879, #736a77);
+    background-image: linear-gradient(#4c869b, #736a77);
     padding: 90px;
 }
 
@@ -506,7 +518,7 @@ html {
     font-size: 26px;
     font-weight: 700;
     color: #ffffff;
-    margin: 20px 20px;
+    margin: 20px 15px;
 }
 
 .address-part p {
@@ -515,7 +527,7 @@ html {
     font-weight: 300;
     color: #ffffff;
     width: 198%;
-    margin: 20px;
+    margin: 20px 15px;
 }
 
 /*its for phone part*/
@@ -530,7 +542,7 @@ html {
     font-size: 26px;
     font-weight: 700;
     color: #ffffff;
-    margin: 20px 20px;
+    margin: 20px 15px;
 }
 
 .phone-part ul li {
@@ -538,7 +550,7 @@ html {
     font-size: 16px;
     font-weight: 300;
     color: #ffffff;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 5px;
 }
 
@@ -554,7 +566,7 @@ html {
     font-size: 26px;
     font-weight: 700;
     color: #ffffff;
-    margin: 20px 20px;
+    margin: 20px 15px;
 }
 
 .web-part ul li {
@@ -562,12 +574,31 @@ html {
     font-size: 16px;
     font-weight: 300;
     color: #ffffff;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 5px;
 }
 
 /*contact-right part end*/
 /*contact-part end*/
+/*footer-part start*/
+.footer-part {
+    background-color: #000000;
+    padding: 40px 0px;
+}
+
+.footer-part p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    color: #8a8484;
+    margin-top: 5px;
+}
+
+.footer-part .item {
+    border-right: 1px solid #ffffff;
+    padding-right: 20px;
+}
+/*footer-part end*/
 
 /*font-family: 'Raleway', sans-serif;*/
 /*font-family: 'Roboto', sans-serif;*/
