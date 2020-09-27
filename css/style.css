@@ -86,6 +86,10 @@ html {
 }
 
 /* its for about content part*/
+.content-area {
+    margin-left: 30px;
+}
+
 .about-part h4 {
     font-family: 'Roboto';
     font-size: 18px;
@@ -98,7 +102,7 @@ html {
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 300;
-    width: 101%;
+    width: 110%;
     margin-bottom: 30px;
 }
 
@@ -213,7 +217,7 @@ html {
 /*working-process end*/
 /*experience-part start*/
 .experience-part {
-    background-image: linear-gradient( #396879,#736a77);
+    background-image: linear-gradient(#396879, #736a77);
     padding: 90px;
 }
 
@@ -221,7 +225,9 @@ html {
 .work-experience {
     background-color: #62657d;
     padding: 50px 30px;
-    margin-left: 80px;
+    margin-left: 70px;
+    margin-right: 20px;
+
 
 }
 
@@ -363,6 +369,205 @@ html {
 }
 
 /*experience-part end*/
+/*latest-works part start*/
+.latest-works {
+    padding: 70px 0px;
+}
+
+.latest-works-content {
+    margin-bottom: 50px;
+}
+
+.latest-works-content h2 {
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 700;
+    columns: #000000;
+    margin-bottom: 20px;
+}
+
+.latest-works-content p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #636161;
+}
+
+.part-1 {
+    margin-bottom: 30px;
+}
+
+/*latest-works part end*/
+/*testimonial-part start*/
+.testimonial-part {
+    background-color: #64cbc0;
+    padding: 70px;
+}
+
+.testimonial-content i {
+    font-size: 40px;
+    color: #1d6274 !important;
+}
+
+.testimonial-content p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    width: 63%;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.testimonial-content img {
+    width: 136px;
+}
+
+.testimonial-content h3 {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+    color: #0a4c5c !important;
+}
+
+.testimonial-content h5 {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    color: #404242 !important;
+}
+
+/*testimonial-part end*/
+/*contact-part start*/
+.contact-part {
+    background-image: linear-gradient(#396879, #736a77);
+    padding: 90px;
+}
+
+/*its for contact-left part start*/
+.contact-left {
+    background-color: #62657d;
+    padding: 30px 30px 100px 30px;
+    margin-right: 2px;
+    margin-left: 5px;
+}
+
+.contact-left h3 {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.background-color .form-group {
+    background-color: none;
+
+}
+
+.form-control {
+    border: 1px solid #cac8c8;
+    background: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.form-control:hover {
+    border: 1px solid #cac8c8;
+    background: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.contact-btn {
+    background-color: #ff2b4a;
+    padding: 6px 45px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    float: right;
+}
+
+/*its for contact-left part end*/
+/*contact-right part start*/
+/*its for address part*/
+.address {
+    background-color: #62657d;
+    padding: 20px;
+}
+
+.address-part h2 {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 20px 20px;
+}
+
+.address-part p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    width: 198%;
+    margin: 20px;
+}
+
+/*its for phone part*/
+.phone {
+    background-color: #62657d;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.phone-part h2 {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 20px 20px;
+}
+
+.phone-part ul li {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/*its for web part*/
+.web {
+    background-color: #62657d;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.web-part h2 {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 20px 20px;
+}
+
+.web-part ul li {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/*contact-right part end*/
+/*contact-part end*/
 
 /*font-family: 'Raleway', sans-serif;*/
 /*font-family: 'Roboto', sans-serif;*/
