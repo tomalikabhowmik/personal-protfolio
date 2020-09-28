@@ -25,7 +25,7 @@ html {
     background-color: none;
     color: #faf2f2 !important;
     margin-top: 5px;
-    border: 1.5px solid #ecebeb !important;
+    border: 2px solid #ecebeb !important;
 }
 
 .navbar {
@@ -116,6 +116,12 @@ html {
     color: #ffffff;
     text-align: center;
     margin-top: 20px;
+}
+
+.btn-custom1:hover {
+    background-color: #ffffff;
+    border: 1px solid #ff2b4a;
+    color: #ff2b4a;
 }
 
 /*about part end*/
@@ -459,7 +465,7 @@ html {
 /*its for contact-left part start*/
 .contact-left {
     background-color: #62657d;
-    padding: 30px 30px 100px 30px;
+    padding: 45px 30px 100px 30px;
     margin-right: 2px;
     margin-left: 5px;
 }
@@ -469,8 +475,8 @@ html {
     font-size: 26px;
     font-weight: 700;
     color: #ffffff;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 .background-color .form-group {
@@ -480,7 +486,7 @@ html {
 
 .form-control {
     border: 1px solid #cac8c8;
-    background: none;
+    background-color: #62657d;
     padding: 5px 10px;
     cursor: pointer;
     color: #ffffff;
@@ -488,7 +494,7 @@ html {
 
 .form-control:hover {
     border: 1px solid #cac8c8;
-    background: none;
+    background-color: #62657d;
     padding: 5px 10px;
     cursor: pointer;
 }
@@ -503,6 +509,12 @@ html {
     text-align: center;
     margin-top: 10px;
     float: right;
+}
+
+.contact-btn:hover {
+    background-color: #62657d;
+    border: 1px solid #ffffff;
+    color: #ffffff;
 }
 
 /*its for contact-left part end*/
@@ -598,6 +610,7 @@ html {
     border-right: 1px solid #ffffff;
     padding-right: 20px;
 }
+
 /*footer-part end*/
 
 /*font-family: 'Raleway', sans-serif;*/

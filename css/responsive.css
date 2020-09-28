@@ -1,21 +1,2422 @@
 /*Extra small device(Mobile (e.g. Apple iPhone) less than 361px)*/
-@media (min-width: 320px) and (max-width: 374.98px) {}
+@media (min-width: 320px) and (max-width: 359.98px) {
+
+    /*header part start*/
+    .header-area {
+        padding: 40px 0px 70px 0px;
+        height: 40vh;
+    }
+
+    /*its for menu list part*/
+    .menu {
+        margin-top: 30px;
+        padding-right: 15px;
+        padding-left: 68%;
+    }
+
+    .menu a {
+        margin-right: 20px;
+    }
+
+    /* its for header-content start*/
+    .header-content {
+        padding-top: 45%;
+        margin-left: 21px;
+    }
+
+    .header-area h2 {
+        font-size: 40px;
+        padding: 10px 0px;
+    }
+
+    .header-area p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /*header part end*/
+    /*about part start*/
+    /* its for about content part*/
+    .image-area {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .content-area {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .about-part h4 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .about-part p {
+        font-size: 12px;
+        width: 94%;
+        margin-bottom: 30px;
+    }
+
+    /*its for btn custom1*/
+    .btn-custom1 {
+        background-color: #ff2b4a;
+        padding: 5px 30px;
+        font-size: 16px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*about part end*/
+    /*working-process start*/
+    .working-process {
+        padding: 0px;
+        margin-bottom: 70px;
+    }
+
+    /*its for process-content part*/
+    .process-content h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .process-content p {
+        font-size: 14px;
+    }
+
+    .process-content {
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+
+    /*its for categories-image1 part*/
+    .categories-image1 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image1 h5 {
+        margin-top: 25px;
+        margin-left: -2px;
+    }
+
+    /*its for categories-image2 part*/
+    .categories-image2 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image2 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*its for categories-image3 part*/
+    .categories-image3 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image3 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*its for categories-image4 part*/
+    .categories-image4 {
+        padding: 80px 90px;
+    }
+
+    .categories-image4 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*working-process end*/
+    /*experience-part start*/
+    .experience-part {
+        padding: 12px;
+    }
+
+    /*its for work-experience-part*/
+    .work-experience {
+        padding: 50px 30px 20px 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    /*its for work-experience1-part*/
+    .work-experience1 {
+        margin-bottom: 30px;
+    }
+
+    .work-experience1 h3 {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+
+    .work-experience1 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience1 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience1 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /*its for work-experience2-part*/
+    .work-experience2 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience2 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience2 p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    /*its for education-part*/
+    .education {
+        padding: 50px 30px 20px 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 70px;
+        margin-top: 10px;
+    }
+
+    /*its for education1-part*/
+    .education1 {
+        margin-bottom: 30px;
+    }
+
+    .education1 h3 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .education1 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .education1 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .education1 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /*its for education2-part*/
+    .education2 h4 {
+        font-family: 'Roboto';
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .education2 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .education2 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    /*experience-part end*/
+    /*latest-works part start*/
+    .latest-works {
+        padding: 40px 0px;
+    }
+
+    .latest-works-content h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .latest-works-content p {
+        font-size: 14px;
+    }
+
+    .part-1 {
+        margin-bottom: 30px;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+
+    .part-2 {
+        margin-bottom: 30px;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+
+    .part1-image1 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part1-image2 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part1-image3 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part1-image4 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part2-image1 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part2-image2 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part2-image3 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /*latest-works part end*/
+    /*testimonial part start*/
+    .testimonial-content {
+        text-align: center;
+    }
+
+    .testimonial-content p {
+        font-size: 12px;
+        width: 105%;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .testimonial-content img {
+        width: 92px;
+    }
+
+    .testimonial-image {
+        margin-top: 40px;
+    }
+
+    /*testimonial part end*/
+    /*contact-part start*/
+    .contact-part {
+        padding: 40px;
+    }
+
+    /*its for contact-left part start*/
+    .contact-left {
+        padding: 25px 20px 70px 20px;
+        margin-right: -39px;
+        margin-left: -37px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .contact-left h3 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .contact-btn {
+        padding: 4px 30px;
+        font-size: 10px;
+        margin-top: 10px;
+        float: right;
+        margin-top: 10px;
+        margin-left: 71px;
+        float: left;
+    }
+
+    /*its for contact-left part end*/
+    /*contact-right part start*/
+    .contact-right {
+        margin-top: 10px;
+    }
+
+    /*its for address part*/
+    .address {
+        background-color: #62657d;
+        padding: 8px 3px;
+        margin-left: -37px;
+        margin-right: -39px;
+        text-align: center;
+    }
+
+    .address-part h2 {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+
+    .address-part p {
+        font-size: 14px;
+        width: 96%;
+        margin: 20px 0px;
+    }
+
+    /*its for phone part*/
+    .phone {
+        padding: 8px 3px;
+        margin-top: 20px;
+        margin-left: -37px;
+        margin-right: -39px;
+        text-align: center;
+    }
+
+    .phone-part h2 {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+
+    .phone-part ul li {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /*its for web part*/
+    .web {
+        padding: 8px 3px;
+        margin-top: 20px;
+        margin-left: -37px;
+        margin-right: -39px;
+        text-align: center;
+    }
+
+    .web-part h2 {
+        font-size: 20px;
+        margin: 20px 15px;
+    }
+
+    .web-part ul li {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /*contact-right part end*/
+    /*contact-part end*/
+    /*footer-part start*/
+    .footer-part {
+        background-color: #000000;
+        padding: 20px 0px;
+    }
+
+    .footer-part .item {
+        padding-right: 20px;
+    }
+
+    .footer-part p {
+        font-family: 'Roboto';
+        font-size: 10px;
+        margin-top: 0px;
+    }
+
+    .footer-part i {
+        font-size: 14px;
+    }
+
+    /*footer-part end*/
+}
 
 /* small device(Apple iPhone 7, less than 361px)*/
-@media (min-width: 375px) and (max-width: 413.98px) {}
+@media (min-width: 360px) and (max-width: 479.98px) {
+
+    /*header part start*/
+    .header-area {
+        padding: 40px 0px 70px 0px;
+        height: 40vh;
+    }
+
+    /*its for menu list part*/
+    .menu {
+        margin-top: 30px;
+        padding-right: 15px;
+        padding-left: 68%;
+    }
+
+    .menu a {
+        margin-right: 20px;
+    }
+
+    /* its for header-content start*/
+    .header-content {
+        padding-top: 45%;
+        margin-left: 37px;
+    }
+
+    .header-area h2 {
+        font-size: 47px;
+        padding: 10px 0px;
+    }
+
+    .header-area p {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /*header part end*/
+    /*about part start*/
+    /* its for about content part*/
+    .image-area {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .content-area {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .about-part h4 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .about-part p {
+        font-size: 12px;
+        width: 94%;
+        margin-bottom: 30px;
+    }
+
+    /*its for btn custom1*/
+    .btn-custom1 {
+        background-color: #ff2b4a;
+        padding: 5px 30px;
+        font-size: 16px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*about part end*/
+    /*working-process start*/
+    .working-process {
+        padding: 0px;
+        margin-bottom: 70px;
+    }
+
+    /*its for process-content part*/
+    .process-content h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .process-content p {
+        font-size: 14px;
+    }
+
+    .process-content {
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+
+    /*its for categories-image1 part*/
+    .categories-image1 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image1 h5 {
+        margin-top: 25px;
+        margin-left: -2px;
+    }
+
+    /*its for categories-image2 part*/
+    .categories-image2 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image2 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*its for categories-image3 part*/
+    .categories-image3 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image3 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*its for categories-image4 part*/
+    .categories-image4 {
+        padding: 80px 90px;
+    }
+
+    .categories-image4 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*working-process end*/
+    /*experience-part start*/
+    .experience-part {
+        padding: 12px;
+    }
+
+    /*its for work-experience-part*/
+    .work-experience {
+        padding: 50px 30px 20px 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    /*its for work-experience1-part*/
+    .work-experience1 {
+        margin-bottom: 30px;
+    }
+
+    .work-experience1 h3 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .work-experience1 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience1 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience1 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /*its for work-experience2-part*/
+    .work-experience2 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience2 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience2 p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    /*its for education-part*/
+    .education {
+        padding: 50px 30px 20px 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 70px;
+        margin-top: 10px;
+    }
+
+    /*its for education1-part*/
+    .education1 {
+        margin-bottom: 30px;
+    }
+
+    .education1 h3 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .education1 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .education1 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .education1 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /*its for education2-part*/
+    .education2 h4 {
+        font-family: 'Roboto';
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .education2 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .education2 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    /*experience-part end*/
+    /*latest-works part start*/
+    .latest-works {
+        padding: 40px 0px;
+    }
+
+    .latest-works-content h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .latest-works-content p {
+        font-size: 14px;
+    }
+
+    .part-1 {
+        margin-bottom: 30px;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+
+    .part-2 {
+        margin-bottom: 30px;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+
+    .part1-image1 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part1-image2 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part1-image3 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part1-image4 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part2-image1 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part2-image2 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part2-image3 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /*latest-works part end*/
+    /*testimonial part start*/
+    .testimonial-content {
+        text-align: center;
+    }
+
+    .testimonial-content p {
+        font-size: 14px;
+        width: 105%;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .testimonial-image {
+        margin-top: 40px;
+    }
+
+    /*testimonial part end*/
+    /*contact-part start*/
+    .contact-part {
+        padding: 40px;
+    }
+
+    /*its for contact-left part start*/
+    .contact-left {
+        padding: 25px 20px 70px 20px;
+        margin-left: -37px;
+        margin-right: -39px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .contact-left h3 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .contact-btn {
+        padding: 4px 30px;
+        font-size: 10px;
+        margin-top: 10px;
+        float: right;
+        margin-top: 10px;
+        margin-left: 89px;
+        float: left;
+    }
+
+    /*its for contact-left part end*/
+    /*contact-right part start*/
+    .contact-right {
+        margin-top: 10px;
+    }
+
+    /*its for address part*/
+    .address {
+        background-color: #62657d;
+        padding: 8px 3px;
+        margin-left: -37px;
+        margin-right: -39px;
+        text-align: center;
+    }
+
+    .address-part h2 {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+
+    .address-part p {
+        font-size: 14px;
+        width: 96%;
+        margin: 20px 0px;
+    }
+
+    /*its for phone part*/
+    .phone {
+        padding: 8px 3px;
+        margin-top: 20px;
+        margin-left: -37px;
+        margin-right: -39px;
+        text-align: center;
+    }
+
+    .phone-part h2 {
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+
+    .phone-part ul li {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /*its for web part*/
+    .web {
+        padding: 8px 3px;
+        margin-top: 20px;
+        margin-left: -37px;
+        margin-right: -39px;
+        text-align: center;
+    }
+
+    .web-part h2 {
+        font-size: 20px;
+        margin: 20px 15px;
+    }
+
+    .web-part ul li {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /*contact-right part end*/
+    /*contact-part end*/
+    /*footer-part start*/
+    .footer-part {
+        background-color: #000000;
+        padding: 20px 0px;
+    }
+
+    .footer-part p {
+        font-size: 10px;
+        margin-top: 0px;
+    }
+
+    .footer-part .item {
+        padding-right: 20px;
+    }
+
+    .footer-part i {
+        font-size: 16px;
+    }
+
+    /*footer-part end*/
+}
 
 /* small device(Apple iPhone 7 Plus, 361px and up)*/
-@media (min-width: 414px) and (max-width: 599.98px) {}
+@media (min-width: 480px) and (max-width: 575.98px) {
+
+    /*header part start*/
+    .header-area {
+        padding: 40px 0px 70px 0px;
+        height: 50vh;
+    }
+
+    /*its for menu list part*/
+    .menu {
+        margin-top: 30px;
+        padding-right: 15px;
+        padding-left: 68%;
+    }
+
+    .menu a {
+        margin-right: 20px;
+    }
+
+    /* its for header-content start*/
+    .header-content {
+        padding-top: 46%;
+        margin-left: 37px;
+    }
+
+    /*header part end*/
+    /*about part start*/
+    /* its for about content part*/
+    .image-area {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .content-area {
+        margin-left: 30px;
+    }
+
+    .about-part h4 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .about-part p {
+        font-size: 16px;
+        width: 99%;
+        margin-bottom: 30px;
+    }
+
+    /*its for btn custom1*/
+    .btn-custom1 {
+        background-color: #ff2b4a;
+        padding: 8px 45px;
+        font-size: 16px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*about part end*/
+    /*working-process start*/
+    .working-process {
+        padding: 0px;
+        margin-bottom: 70px;
+    }
+
+    /*its for process-content part*/
+    .process-content h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .process-content p {
+        font-size: 16px;
+    }
+
+    .process-content {
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+
+    /*its for categories-image1 part*/
+    .categories-image1 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image1 h5 {
+        margin-top: 25px;
+        margin-left: -2px;
+    }
+
+    /*its for categories-image2 part*/
+    .categories-image2 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image2 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*its for categories-image3 part*/
+    .categories-image3 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image3 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*its for categories-image4 part*/
+    .categories-image4 {
+        padding: 80px 90px;
+    }
+
+    .categories-image4 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*working-process end*/
+    /*experience-part start*/
+    .experience-part {
+        padding: 12px;
+    }
+
+    /*its for work-experience-part*/
+    .work-experience {
+        padding: 50px 30px 20px 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    /*its for work-experience1-part*/
+    .work-experience1 {
+        margin-bottom: 30px;
+    }
+
+    .work-experience1 h3 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .work-experience1 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience1 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience1 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /*its for work-experience2-part*/
+    .work-experience2 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience2 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience2 p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    /*its for education-part*/
+    .education {
+        padding: 50px 30px 20px 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 70px;
+        margin-top: 10px;
+    }
+
+    /*its for education1-part*/
+    .education1 {
+        margin-bottom: 30px;
+    }
+
+    .education1 h3 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .education1 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .education1 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .education1 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /*its for education2-part*/
+    .education2 h4 {
+        font-family: 'Roboto';
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .education2 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .education2 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    /*experience-part end*/
+    /*latest-works part start*/
+    .part-1 {
+        margin-bottom: 30px;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+
+    .part-2 {
+        margin-bottom: 30px;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+
+    .part1-image1 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part1-image2 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part1-image3 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part1-image4 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part2-image1 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part2-image2 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .part2-image3 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /*latest-works part end*/
+    /*testimonial part start*/
+    .testimonial-content {
+        text-align: center;
+    }
+
+    .testimonial-content p {
+        font-size: 14px;
+        width: 105%;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .testimonial-image {
+        margin-top: 40px;
+    }
+
+    /*testimonial part end*/
+    /*contact-part start*/
+    .contact-part {
+        padding: 40px;
+    }
+
+    /*its for contact-left part start*/
+    .contact-left {
+        padding: 25px 20px 70px 20px;
+        margin-right: 2px;
+        margin-left: 5px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .contact-left h3 {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .contact-btn {
+        padding: 6px 45px;
+        font-size: 14px;
+        margin-top: 10px;
+        float: right;
+        margin-top: 10px;
+        margin-left: 98px;
+        float: left;
+    }
+
+    /*its for contact-left part end*/
+    /*contact-right part start*/
+    .contact-right {
+        margin-top: 10px;
+    }
+
+    /*its for address part*/
+    .address {
+        background-color: #62657d;
+        padding: 8px 3px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    .address-part h2 {
+        font-size: 23px;
+        margin: 20px 15px;
+    }
+
+    .address-part p {
+        font-size: 14px;
+        width: 96%;
+        margin: 20px 12px;
+    }
+
+    /*its for phone part*/
+    .phone {
+        padding: 8px 3px;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    .phone-part h2 {
+        font-size: 23px;
+        margin: 20px 15px;
+    }
+
+    .phone-part ul li {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    /*its for web part*/
+    .web {
+        padding: 8px 3px;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    .web-part h2 {
+        font-size: 23px;
+        margin: 20px 15px;
+    }
+
+    .web-part ul li {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    /*contact-right part end*/
+    /*contact-part end*/
+    /*footer-part start*/
+    .footer-part {
+        background-color: #000000;
+        padding: 20px 0px;
+    }
+
+    .footer-part p {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+
+    .footer-part .item {
+        padding-right: 20px;
+    }
+
+    .footer-part i {
+        font-size: 16px;
+    }
+
+    /*footer-part end*/
+}
 
 /*Small device(Small Tablet, 576px and up)*/
-@media (min-width: 600px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*header part start*/
+    .header-area {
+        padding: 40px 0px 70px 0px;
+        height: 50vh;
+    }
+
+    /*its for menu list part*/
+    .menu {
+        margin-top: 30px;
+        padding-right: 15px;
+        padding-left: 68%;
+    }
+
+    .menu a {
+        margin-right: 20px;
+    }
+
+    /* its for header-content start*/
+    .header-content {
+        padding-top: 46%;
+        margin-left: 63px;
+    }
+
+    /*header part end*/
+    /*about part start*/
+
+    /* its for about content part*/
+    .image-area {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .content-area {
+        margin-left: 30px;
+    }
+
+    .about-part h4 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .about-part p {
+        font-size: 16px;
+        width: 99%;
+        margin-bottom: 30px;
+    }
+
+    /*its for btn custom1*/
+    .btn-custom1 {
+        background-color: #ff2b4a;
+        padding: 8px 45px;
+        font-size: 16px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*about part end*/
+    /*working-process start*/
+    .working-process {
+        padding: 0px;
+        margin-bottom: 70px;
+    }
+
+    /*its for process-content part*/
+    .process-content h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .process-content p {
+        font-size: 16px;
+    }
+
+    .process-content {
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+
+    /*its for categories-image1 part*/
+    .categories-image1 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image1 h5 {
+        margin-top: 25px;
+        margin-left: -2px;
+    }
+
+    /*its for categories-image2 part*/
+    .categories-image2 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image2 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*its for categories-image3 part*/
+    .categories-image3 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image3 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*its for categories-image4 part*/
+    .categories-image4 {
+        padding: 80px 90px;
+    }
+
+    .categories-image4 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*working-process end*/
+    /*experience-part start*/
+    .experience-part {
+        padding: 12px;
+    }
+
+    /*its for work-experience-part*/
+    .work-experience {
+        padding: 50px 30px 20px 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    /*its for work-experience1-part*/
+    .work-experience1 {
+        margin-bottom: 30px;
+    }
+
+    .work-experience1 h3 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .work-experience1 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience1 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience1 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /*its for work-experience2-part*/
+    .work-experience2 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience2 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience2 p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    /*its for education-part*/
+    .education {
+        padding: 50px 30px 20px 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 70px;
+        margin-top: 10px;
+    }
+
+    /*its for education1-part*/
+    .education1 {
+        margin-bottom: 30px;
+    }
+
+    .education1 h3 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .education1 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .education1 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .education1 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /*its for education2-part*/
+    .education2 h4 {
+        font-family: 'Roboto';
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .education2 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .education2 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    /*experience-part end*/
+    /*latest-works part start*/
+    .part-1 {
+        margin-bottom: 30px;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+
+    .part-2 {
+        margin-bottom: 30px;
+        margin-left: 5px;
+        margin-right: 25px;
+    }
+
+    .part1-image1 {
+        margin-bottom: 30px;
+    }
+
+    .part2-image1 {
+        margin-left: 5px;
+        margin-bottom: 30px;
+    }
+
+    /*latest-works part end*/
+    /*testimonial part start*/
+    .testimonial-content {
+        text-align: center;
+    }
+
+    .testimonial-content p {
+        font-size: 14px;
+        width: 105%;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .testimonial-image {
+        margin-top: 40px;
+    }
+
+    /*testimonial part end*/
+    /*contact-part start*/
+    .contact-part {
+        padding: 40px;
+    }
+
+    /*its for contact-left part start*/
+    .contact-left {
+        padding: 25px 20px 70px 20px;
+        margin-right: 2px;
+        margin-left: 5px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .contact-left h3 {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .contact-btn {
+        padding: 6px 45px;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 143px;
+        float: left;
+    }
+
+    /*its for contact-left part end*/
+    /*contact-right part start*/
+    .contact-right {
+        margin-top: 10px;
+    }
+
+    /*its for address part*/
+    .address {
+        background-color: #62657d;
+        padding: 8px 3px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    .address-part h2 {
+        font-size: 23px;
+        margin: 20px 15px;
+    }
+
+    .address-part p {
+        font-size: 14px;
+        width: 96%;
+        margin: 20px 12px;
+    }
+
+    /*its for phone part*/
+    .phone {
+        padding: 8px 3px;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    .phone-part h2 {
+        font-size: 23px;
+        margin: 20px 15px;
+    }
+
+    .phone-part ul li {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    /*its for web part*/
+    .web {
+        padding: 8px 3px;
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+    }
+
+    .web-part h2 {
+        font-size: 23px;
+        margin: 20px 15px;
+    }
+
+    .web-part ul li {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    /*contact-right part end*/
+    /*contact-part end*/
+    /*footer-part start*/
+    .footer-part {
+        background-color: #000000;
+        padding: 20px 0px;
+    }
+
+    .footer-part p {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+
+    .footer-part .item {
+        padding-right: 20px;
+    }
+
+    .footer-part i {
+        font-size: 16px;
+    }
+
+    /*footer-part end*/
+}
 
 /*medium device(Tablet 768px and up)*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
 
+    /*header part start*/
+    .header-area {
+        padding: 40px 0px 70px 0px;
+        height: 50vh;
+    }
+
+    /*its for menu list part*/
+    .menu {
+        margin-top: 30px;
+        padding-right: 15px;
+        padding-left: 80%;
+    }
+
+    .menu a {
+        margin-right: 20px;
+    }
+
+    /* its for header-content start*/
+    .header-content {
+        padding-top: 36%;
+        margin-left: 138px;
+    }
+
+    /*header part end*/
+    /*about part start*/
+    /* its for about content part*/
+    .image-area {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .content-area {
+        margin-left: 30px;
+    }
+
+    .about-part h4 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .about-part p {
+        font-size: 16px;
+        width: 99%;
+        margin-bottom: 30px;
+    }
+
+    /*its for btn custom1*/
+    .btn-custom1 {
+        background-color: #ff2b4a;
+        padding: 8px 45px;
+        font-size: 16px;
+        font-family: 'Roboto';
+        font-weight: 500;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    /*about part end*/
+    /*working-process start*/
+    .working-process {
+        padding: 0px;
+        margin-bottom: 70px;
+    }
+
+    /*its for process-content part*/
+    .process-content h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .process-content p {
+        font-size: 16px;
+    }
+
+    .process-content {
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+
+    /*its for categories-image1 part*/
+    .categories-image1 {
+        padding: 80px 90px;
+        margin-bottom: 40px;
+    }
+
+    .categories-image1 h5 {
+        margin-top: 25px;
+        margin-left: -2px;
+    }
+
+    /*its for categories-image2 part*/
+    .categories-image2 {
+        padding: 80px 90px;
+    }
+
+    .categories-image2 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*its for categories-image3 part*/
+    .categories-image3 {
+        padding: 80px 90px;
+    }
+
+    .categories-image3 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*its for categories-image4 part*/
+    .categories-image4 {
+        padding: 80px 90px;
+    }
+
+    .categories-image4 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -1px;
+    }
+
+    /*working-process end*/
+    /*experience-part start*/
+    .experience-part {
+        padding: 12px;
+    }
+
+    /*its for work-experience-part*/
+    .work-experience {
+        padding: 50px 30px 20px 30px;
+        margin-left: 42px;
+        margin-right: 20px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    /*its for work-experience1-part*/
+    .work-experience1 {
+        margin-bottom: 30px;
+    }
+
+    .work-experience1 h3 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .work-experience1 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience1 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience1 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /*its for work-experience2-part*/
+    .work-experience2 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience2 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience2 p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    /*its for education-part*/
+    .education {
+        padding: 50px 30px 20px 30px;
+        margin-left: 20px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    /*its for education1-part*/
+    .education1 {
+        margin-bottom: 30px;
+    }
+
+    .education1 h3 {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+
+    .education1 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .education1 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .education1 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /*its for education2-part*/
+    .education2 h4 {
+        font-family: 'Roboto';
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .education2 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .education2 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    /*experience-part end*/
+    /*latest-works part start*/
+    .part-1 {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    .part-2 {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    .part1-image1 {
+        margin-bottom: 30px;
+    }
+
+    .part2-image1 {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    /*latest-works part end*/
+    /*testimonial part start*/
+    .testimonial-content {
+        text-align: center;
+    }
+
+    .testimonial-content p {
+        font-size: 14px;
+        width: 105%;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .testimonial-image {
+        margin-top: 40px;
+    }
+
+    /*testimonial part end*/
+    /*contact-part start*/
+    .contact-part {
+        padding: 40px;
+    }
+
+    /*its for contact-left part start*/
+    .contact-left {
+        padding: 25px 20px 70px 20px;
+        margin-right: 2px;
+        margin-left: 5px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .contact-left h3 {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .contact-btn {
+        padding: 6px 45px;
+        font-size: 14px;
+        margin-top: 10px;
+        float: right;
+    }
+
+    /*its for contact-left part end*/
+    /*contact-right part start*/
+    .contact-right {
+        margin-top: 40px;
+    }
+
+    /*its for address part*/
+    .address {
+        background-color: #62657d;
+        padding: 8px;
+    }
+
+    .address-part h2 {
+        font-size: 23px;
+        margin: 20px 15px;
+    }
+
+    .address-part p {
+        font-size: 14px;
+        width: 100%;
+        margin: 20px 12px;
+    }
+
+    /*its for phone part*/
+    .phone {
+        padding: 8px;
+        margin-top: 20px;
+    }
+
+    .phone-part h2 {
+        font-size: 23px;
+        margin: 20px 15px;
+    }
+
+    .phone-part ul li {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    /*its for web part*/
+    .web {
+        padding: 8px;
+        margin-top: 20px;
+    }
+
+    .web-part h2 {
+        font-size: 23px;
+        margin: 20px 15px;
+    }
+
+    .web-part ul li {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    /*contact-right part end*/
+    /*contact-part end*/
+    /*footer-part start*/
+    .footer-part {
+        background-color: #000000;
+        padding: 20px 0px;
+    }
+
+    .footer-part p {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+
+    .footer-part .item {
+        padding-right: 20px;
+    }
+
+    /*footer-part end*/
+}
 
 /*large device(desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*header part start*/
+    .header-area {
+        padding: 40px 0px 70px 0px;
+        height: 50vh;
+    }
+
+    /*its for menu list part*/
+    .menu {
+        margin-top: 30px;
+        padding-right: 15px;
+        padding-left: 85%;
+    }
+
+    .menu a {
+        margin-right: 20px;
+    }
+
+    /* its for header-content start*/
+    .header-content {
+        padding-top: 30%;
+        margin-left: 254px;
+    }
+
+    /*working-process start*/
+    .working-process {
+        padding: 0px;
+        margin-bottom: 70px;
+    }
+
+    /*its for process-content part*/
+    .process-content h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    .process-content p {
+        font-size: 16px;
+    }
+
+    .process-content {
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+
+    /*its for categories-image1 part*/
+    .categories-image1 {
+        padding: 80px 90px;
+    }
+
+    .categories-image1 h5 {
+        margin-top: 25px;
+        margin-left: -14px;
+    }
+
+    /*its for categories-image2 part*/
+    .categories-image2 {
+        padding: 80px 90px;
+    }
+
+    .categories-image2 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -44px;
+    }
+
+    /*its for categories-image3 part*/
+    .categories-image3 {
+        padding: 80px 90px;
+    }
+
+    .categories-image3 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -15px;
+    }
+
+    /*its for categories-image4 part*/
+    .categories-image4 {
+        padding: 80px 90px;
+    }
+
+    .categories-image4 h5 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: -15px;
+    }
+
+    /*working-process end*/
+    /*experience-part start*/
+    .experience-part {
+        background-image: linear-gradient(#4c869b, #736a77);
+        padding: 12px;
+    }
+
+    /*its for work-experience-part*/
+    .work-experience {
+        padding: 50px 30px 20px 30px;
+        margin-left: 70px;
+        margin-right: 20px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    /*its for work-experience1-part*/
+    .work-experience1 {
+        margin-bottom: 30px;
+    }
+
+    .work-experience1 h3 {
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+
+    .work-experience1 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience1 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience1 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /*its for work-experience2-part*/
+    .work-experience2 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience2 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .work-experience2 p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    /*its for education-part*/
+    .education {
+        padding: 50px 30px 20px 30px;
+        margin-left: 20px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    /*its for education1-part*/
+    .education1 {
+        margin-bottom: 30px;
+    }
+
+    .education1 h3 {
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+
+    .education1 h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .education1 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .education1 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /*its for education2-part*/
+    .education2 h4 {
+        font-family: 'Roboto';
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .education2 h5 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .education2 p {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    /*experience-part end*/
+    /*testimonial part start*/
+    .testimonial-content p {
+        font-size: 14px;
+        width: 85%;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    /*testimonial part end*/
+    /*contact-part start*/
+    .contact-part {
+        padding: 40px;
+    }
+
+    /*its for contact-left part start*/
+    .contact-left {
+        padding: 45px 30px 70px 30px;
+        margin-right: 2px;
+        margin-left: 5px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .contact-left h3 {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .contact-btn {
+        padding: 6px 45px;
+        font-size: 14px;
+        margin-top: 10px;
+        float: right;
+    }
+
+    /*its for contact-left part end*/
+    /*contact-right part start*/
+    .contact-right {
+        margin-top: 40px;
+    }
+
+    /*its for address part*/
+    .address {
+        background-color: #62657d;
+        padding: 10px;
+    }
+
+    .address-part h2 {
+        font-size: 23px;
+        margin: 20px 15px;
+    }
+
+    .address-part p {
+        font-size: 16px;
+        width: 198%;
+        margin: 20px 15px;
+    }
+
+    /*its for phone part*/
+    .phone {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .phone-part h2 {
+        font-size: 23px;
+        margin: 20px 15px;
+    }
+
+    .phone-part ul li {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    /*its for web part*/
+    .web {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .web-part h2 {
+        font-size: 23px;
+        margin: 20px 15px;
+    }
+
+    .web-part ul li {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    /*contact-right part end*/
+    /*contact-part end*/
+}
 
 /*Extra large device(Widescreen,1280px and up)*/
 @media (min-width: 1200px) {}
